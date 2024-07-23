@@ -20,6 +20,6 @@ tasks.withType(JavaCompile) {
     options.errorprone {
         disableAllChecks=true
         check('NullAway', CheckSeverity.ERROR)
-        option('NullAway:AnnotatedPackages', 'io.dropwizard.hiberate')
+        option('NullAway:AnnotatedPackages', 'io.dropwizard.hibernate')
     }
 }
